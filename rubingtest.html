@@ -9,13 +9,19 @@ var count = 0;
 </script>
 <body>
 
-<h1>This is a test file by Rubing</h1>
+<h1>This is a test file by Rubing, v2</h1>
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date(); document.getElementById('demo_couunt').innerHTML = count++">
 Click me to display Date and Time.</button>
 
 <h2 id="demo"></h2>
 <h2 id="demo_couunt"></h2>
+
+<button type="button"
+onclick="window.top.postMessage('close this', '*')">
+Click me to close this remote window.</button>
+
+
 
 </body>
 </html>

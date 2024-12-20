@@ -6,10 +6,21 @@
 </head>
 <script>
 var count = 0;
+
+const urlParams = new URLSearchParams(window.location.search);
+const previousUrl = urlParams.get('from');
+console.log("Previous URL:", previousUrl);
+
 </script>
+<style>
+button {
+  font-size: 32px;
+  height: 100px;
+}
+</style>
 <body>
 
-<h1>This is a test file by Rubing, v2</h1>
+<h1>This is a test file by Rubing, v3</h1>
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date(); document.getElementById('demo_couunt').innerHTML = count++">
 Click me to display Date and Time.</button>
@@ -19,8 +30,23 @@ Click me to display Date and Time.</button>
 
 <button type="button"
 onclick="window.top.postMessage('close this', '*')">
-Click me to close this remote window.</button>
+Click me to close this remote window.</button><br>
 
+<button type="button"
+onclick="window.location = previousUrl">
+Click me to go back to from url.</button><br>
+
+
+<div> 
+long<br>
+long<br>
+long<br>
+long<br>
+long<br>
+long<br>
+long<br>
+
+</div>
 
 
 </body>

@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.3",
-  "firmware_url": "https://dux-test-alpha.vercel.app/app_flow_diagrams.zip",
-  "checksum": "b10c32bdb628df62e92cc1e41c628b54f5282085554348b1087e49d5b7d1bec2",
+  "firmware_url": "https://dux-test-alpha.vercel.app/5k_image.png",
+  "checksum": "52fcd8aa5ae4cd4447d8bdc1d90b475d37360fbb45ca949edd85529f6ca13a6f",
   "release_notes": "Bug fixes and performance improvements",
-  "file_size":"19733363"
+  "file_size":"35032"
 }
